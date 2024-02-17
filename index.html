@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Jadeed Super Market</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #ede3c2; /* Beige Background */
+            color: #333; /* Dark text color */
+        }
+
+        .navbar {
+            background-color: #d2b48c; /* Tan Navbar */
+        }
+
+        .jumbotron {
+            background-color: #f0e6d2; /* Light Beige Jumbotron */
+            color: #333; /* Dark text color */
+        }
+
+        .card {
+            background-color: #d2b48c; /* Tan Product Card */
+            color: #333; /* Dark text color */
+            margin-bottom: 20px;
+        }
+
+        .btn-beige {
+            background-color: #f0e6d2; /* Light Beige Button */
+            color: #333; /* Dark text color */
+        }
+
+        .discount-text {
+            color: #d9534f; /* Red for discount text */
+        }
+
+        .footer {
+            background-color: #333; /* Dark Footer */
+            color: #fff; /* White text color */
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Al-Jadeed Super Market</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Al-Jadeed Super Market</h1>
+        <p class="lead">Explore a variety of high-quality products for your daily needs.</p>
+    </div>
+
+    <!-- Product Cards -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img 
+                    height="520px"
+                    width="450px"
+                    src="https://i.pinimg.com/236x/c7/2c/5e/c72c5eba8be20b3967d2bf0bbd70fa9c.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">Description of Product 1.</p>
+                        <a href="#" class="btn btn-beige">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the product card structure for more products -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img 
+                    
+                    height="520px"
+                    width="450px"
+                    src="https://i.pinimg.com/236x/96/d6/ea/96d6ea871f333d88f164faaa37bbb4e1.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">Description of Product 2.</p>
+                        <a href="#" class="btn btn-beige">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img 
+                    
+                    height="520px"
+                    width="450px"
+                    src="https://i.pinimg.com/236x/ff/ab/bb/ffabbbc4d524bdd5ed3c9c233e60880f.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 3</h5>
+                        <p class="card-text">Description of Product 3.</p>
+                        <a href="#" class="btn btn-beige">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- ... Repeat the structure for more products ... -->
+        </div>
+    </div>
+
+    <!-- 25% Flat Off on Clothing Variety Section -->
+    <div class="container mt-5">
+        <h2 class="text-center">25% Flat Off on Clothing Variety</h2>
+        <p class="text-center discount-text">Limited time offer! Grab your favorite clothing items now.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img 
+                    
+                    height="460px"
+                    width="450px"
+                    src="https://i.pinimg.com/236x/c4/31/70/c43170fa4f7dfe28c6bfe95379066849.jpg" class="card-img-top" alt="Discounted T-Shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Discounted T-Shirt</h5>
+                        <p class="card-text">Stylish T-shirt at 25% off! Limited stock available.</p>
+                        <p class="card-text"><strong class="discount-text">$14.99</strong> <del>$19.99</del></p>
+                        <a href="#" class="btn btn-beige">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the discounted product card structure for more items -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/236x/17/fe/a6/17fea6f2a2f1249f2f91f8f9c118976e.jpg" class="card-img-top" alt="Discounted Jeans">
+                    <div class="card-body">
+                        <h5 class="card-title">Discounted Jeans</h5>
+                        <p class="card-text">Classic jeans at a discounted price. Grab them now!</p>
+                        <p class="card-text"><strong class="discount-text">$29.99</strong> <del>$39.99</del></p>
+                        <a href="#" class="btn btn-beige">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ... Repeat the structure for more discounted items ... -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Al-Jadeed Super Market. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
